@@ -1,7 +1,20 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
+import logging
+import os
+
 load_dotenv()
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Check for required environment variables
+if not os.getenv("GROQ_API_KEY"):
+    logger.warning("GROQ_API_KEY not found - bot responses may be limited")
+if not os.getenv("OPENROUTER_API_KEY"):
+    logger.warning("OPENROUTER_API_KEY not found - bot responses may be limited")
 
 from routes.messages import router as messages_router
 from routes.rooms import router as rooms_router
