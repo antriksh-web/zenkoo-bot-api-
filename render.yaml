@@ -12,7 +12,7 @@ services:
       - key: APPS_SCRIPT_MEMORY_URL
         value: "https://script.google.com/macros/s/AKfycbzz-lF2u6zXrHL6ueXCdNV_fLX4IVgdVVY9szOnbafW0dyD8ghUKzUL1Lth7lP2p4DC6A/exec"
       - key: APPS_SCRIPT_MEMORY_ENABLED
-        value: "true"
+        value: "false"
       - key: GOOGLE_SHEETS_MEMORY_ENABLED
-        value: "true"
+        value: "false"
 
