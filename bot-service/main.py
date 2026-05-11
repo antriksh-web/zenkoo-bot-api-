@@ -1,9 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
 from dotenv import load_dotenv
 load_dotenv()
-from pathlib import Path
 
 from routes.messages import router as messages_router
 from routes.rooms import router as rooms_router
@@ -49,7 +47,4 @@ async def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
-@app.get("/", include_in_schema=False)
-async def serve_ui() -> FileResponse:
-    ui_path = Path(__file__).resolve().parents[1] / "test-ui.html"
-    return FileResponse(str(ui_path), media_type="text/html")
+
