@@ -1,9 +1,9 @@
 services:
   - type: web
     name: zenkoo-bot-api
-    env: python
-    buildCommand: cd bot-service && pip install -r requirements.txt
-    startCommand: cd bot-service && uvicorn main:app --host 0.0.0.0 --port $PORT
+    env: docker
+    dockerContext: ./bot-service
+    dockerfilePath: ./bot-service/Dockerfile
     envVars:
       - key: GROQ_API_KEY
         sync: false
