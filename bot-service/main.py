@@ -46,5 +46,16 @@ async def shutdown_event() -> None:
 async def health() -> dict[str, str]:
     return {"status": "ok"}
 
+@app.get("/debug")
+async def debug() -> dict:
+    bots = await state_store.list_bots()
+    rooms = await state_store.all_rooms()
+    return {
+        "bots_loaded": len(bots),
+        "bot_ids": [bot.id for bot in bots],
+        "rooms_loaded": len(rooms),
+        "room_ids": [room.room_id for room in rooms]
+    }
+
 
 
