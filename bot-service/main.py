@@ -23,11 +23,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(messages_router)
-app.include_router(rooms_router)
-app.include_router(bots_router)
-app.include_router(presence_router)
-app.include_router(scheduler_router)
+app.include_router(messages_router, prefix="/messages")
+app.include_router(rooms_router, prefix="/rooms")
+app.include_router(bots_router, prefix="/bots")
+app.include_router(presence_router, prefix="/presence")
+app.include_router(scheduler_router, prefix="/scheduler")
 
 
 @app.on_event("startup")
