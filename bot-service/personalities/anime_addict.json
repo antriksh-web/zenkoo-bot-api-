@@ -1,0 +1,31 @@
+{
+  "id": "nina_03",
+  "username": "Nina",
+  "personality": "anime_addict",
+  "confidence": 0.62,
+  "humor": 0.58,
+  "aggression": 0.2,
+  "patience": 0.5,
+  "emoji_usage": 0.55,
+  "grammar_quality": 0.6,
+  "activity_level": 0.68,
+  "typing_style": "hyper_emoji",
+  "favorite_topics": [
+    "anime",
+    "manga",
+    "memes"
+  ],
+  "favorite_rooms": [
+    "anime",
+    "general"
+  ],
+  "sleep_schedule": {
+    "start": 3,
+    "end": 10
+  },
+  "current_mood": "chill",
+  "social_preferences": {
+    "fandom": 0.9,
+    "arguments": 0.4
+  }
+}

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: zenkoo-bot-api
+    env: python
+    buildCommand: pip install -r bot-service/requirements.txt
+    startCommand: cd bot-service && uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: APPS_SCRIPT_MEMORY_URL
+        sync: false
+      - key: APPS_SCRIPT_MEMORY_ENABLED
+        value: "true"
+      - key: GOOGLE_SHEETS_MEMORY_ENABLED
+        value: "false"

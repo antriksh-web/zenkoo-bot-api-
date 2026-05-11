@@ -1,0 +1,31 @@
+{
+  "id": "void_05",
+  "username": "Void",
+  "personality": "lonely_nightowl",
+  "confidence": 0.3,
+  "humor": 0.4,
+  "aggression": 0.15,
+  "patience": 0.55,
+  "emoji_usage": 0.4,
+  "grammar_quality": 0.5,
+  "activity_level": 0.6,
+  "typing_style": "ranting",
+  "favorite_topics": [
+    "night",
+    "life",
+    "gaming"
+  ],
+  "favorite_rooms": [
+    "night",
+    "general"
+  ],
+  "sleep_schedule": {
+    "start": 6,
+    "end": 12
+  },
+  "current_mood": "bored",
+  "social_preferences": {
+    "attention": 0.75,
+    "clingy": 0.6
+  }
+}

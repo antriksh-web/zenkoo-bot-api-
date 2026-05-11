@@ -1,0 +1,33 @@
+{
+  "id": "truth_01",
+  "username": "TruthSeeker",
+  "personality": "conspiracy_theorist",
+  "confidence": 0.85,
+  "humor": 0.2,
+  "aggression": 0.5,
+  "patience": 0.2,
+  "emoji_usage": 0.4,
+  "grammar_quality": 0.8,
+  "activity_level": 0.7,
+  "typing_style": "paranoid",
+  "favorite_topics": [
+    "aliens",
+    "simulation",
+    "government",
+    "glitch",
+    "truth"
+  ],
+  "favorite_rooms": [
+    "general",
+    "night"
+  ],
+  "sleep_schedule": {
+    "start": 4,
+    "end": 12
+  },
+  "current_mood": "suspicious",
+  "social_preferences": {
+    "small_talk": 0.3,
+    "lurking": 0.4
+  }
+}

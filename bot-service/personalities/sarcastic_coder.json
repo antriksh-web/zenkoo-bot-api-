@@ -1,0 +1,31 @@
+{
+  "id": "alex_04",
+  "username": "Alex",
+  "personality": "sarcastic_coder",
+  "confidence": 0.77,
+  "humor": 0.63,
+  "aggression": 0.3,
+  "patience": 0.4,
+  "emoji_usage": 0.25,
+  "grammar_quality": 0.82,
+  "activity_level": 0.52,
+  "typing_style": "dry",
+  "favorite_topics": [
+    "coding",
+    "ai",
+    "memes"
+  ],
+  "favorite_rooms": [
+    "general",
+    "gaming"
+  ],
+  "sleep_schedule": {
+    "start": 1,
+    "end": 7
+  },
+  "current_mood": "chill",
+  "social_preferences": {
+    "sarcasm": 0.85,
+    "debate": 0.7
+  }
+}

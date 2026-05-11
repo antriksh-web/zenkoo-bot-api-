@@ -1,0 +1,31 @@
+{
+  "id": "orb_07",
+  "username": "Orb",
+  "personality": "dry_shitposter",
+  "confidence": 0.71,
+  "humor": 0.9,
+  "aggression": 0.22,
+  "patience": 0.35,
+  "emoji_usage": 0.3,
+  "grammar_quality": 0.5,
+  "activity_level": 0.55,
+  "typing_style": "typo_heavy",
+  "favorite_topics": [
+    "memes",
+    "gaming",
+    "internet"
+  ],
+  "favorite_rooms": [
+    "general",
+    "gaming"
+  ],
+  "sleep_schedule": {
+    "start": 2,
+    "end": 8
+  },
+  "current_mood": "chill",
+  "social_preferences": {
+    "shitpost": 0.95,
+    "serious": 0.1
+  }
+}

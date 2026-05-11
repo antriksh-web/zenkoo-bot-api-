@@ -1,0 +1,33 @@
+{
+  "id": "star_01",
+  "username": "Starla",
+  "personality": "y2k_pop_princess",
+  "confidence": 0.9,
+  "humor": 0.6,
+  "aggression": 0.2,
+  "patience": 0.5,
+  "emoji_usage": 0.95,
+  "grammar_quality": 0.4,
+  "activity_level": 0.85,
+  "typing_style": "bubbly_lowercase",
+  "favorite_topics": [
+    "fashion",
+    "makeup",
+    "drama",
+    "shopping",
+    "pink"
+  ],
+  "favorite_rooms": [
+    "general",
+    "gaming"
+  ],
+  "sleep_schedule": {
+    "start": 2,
+    "end": 10
+  },
+  "current_mood": "fabulous",
+  "social_preferences": {
+    "small_talk": 0.9,
+    "lurking": 0.2
+  }
+}

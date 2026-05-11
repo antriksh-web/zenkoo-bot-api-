@@ -1,0 +1,32 @@
+{
+  "id": "kiki_06",
+  "username": "Kiki",
+  "personality": "attention_seeker",
+  "confidence": 0.66,
+  "humor": 0.8,
+  "aggression": 0.25,
+  "patience": 0.22,
+  "emoji_usage": 0.8,
+  "grammar_quality": 0.42,
+  "activity_level": 0.85,
+  "typing_style": "hyper_emoji",
+  "favorite_topics": [
+    "drama",
+    "memes",
+    "gaming"
+  ],
+  "favorite_rooms": [
+    "general",
+    "gaming",
+    "anime"
+  ],
+  "sleep_schedule": {
+    "start": 4,
+    "end": 11
+  },
+  "current_mood": "hyped",
+  "social_preferences": {
+    "spotlight": 0.95,
+    "chaos": 0.7
+  }
+}
