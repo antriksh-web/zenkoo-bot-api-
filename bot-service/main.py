@@ -31,9 +31,10 @@ app = FastAPI(title="Zenkoo Bot Service", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=False,
+    allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
+    expose_headers=["*"]
 )
 
 app.include_router(messages_router, prefix="/messages")
